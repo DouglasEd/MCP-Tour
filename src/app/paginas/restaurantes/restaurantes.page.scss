@@ -1,0 +1,21 @@
+.background{
+    background-image: url("../../home/img/macapa.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: relative;
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+.title{
+    font-size: 200%;
+    margin: 5%;
+    margin-top: auto;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: azure;
+    font-family: fantasy;
+}
+.background-img{
+    --background: url(../../home/img/macapa.jpg) 0 0/100% 100% no-repeat;
+}
