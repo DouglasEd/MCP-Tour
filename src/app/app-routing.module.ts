@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'home/PontosTuristicos',
     loadChildren: () => import('./paginas/pont-tur/pont-tur.module').then( m => m.PontTurPageModule)
   },
+  {
+    path: 'home/hoteis',
+    loadChildren: () => import('./paginas/hoteis/hoteis.module').then( m => m.HoteisPageModule)
+  },
 ];
 
 @NgModule({

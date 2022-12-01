@@ -1,0 +1,20 @@
+.background-img{
+    --background: url(../../home/img/macapa.jpg) 0 0/100% 100% no-repeat;
+}
+.title{
+    font-size: 200%;
+    margin: 5%;
+    margin-top: auto;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: azure;
+    font-family: fantasy;
+}
+.collapse{
+    margin: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 10%;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
